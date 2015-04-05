@@ -1,15 +1,12 @@
 package com.simplebatteryindicator;
 
 import android.app.Activity;
-import android.nfc.FormatException;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
-import java.text.ParseException;
 
 /**
  *  This is the activity that is created when the user selects the "Settings" button from the
