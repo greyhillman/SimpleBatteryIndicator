@@ -11,7 +11,9 @@ import android.widget.EditText;
 
 import java.text.ParseException;
 
-
+/**
+ *
+ */
 public class SettingsActivity extends Activity {
 
     public void settingsBatterySavingPressed(View view) {
