@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">30dp</item>
+        <item name="android:textSize">90dp</item>
+    </style>
+
+    <style name="StartButton" parent="Button">
+        <item name="android:textColor">#ff009700</item>
+        <item name="android:background">#00ff00</item>
+        <item name="android:textSize">90dp</item>
+    </style>
+
+    <style name="StopButton" parent="Button">
+        <item name="android:textColor">#ffb80000</item>
+        <item name="android:background">#ff0000</item>
+        <item name="android:textSize">100dp</item>
+    </style>
+
+</resources>

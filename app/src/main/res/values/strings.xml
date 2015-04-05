@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Simple Battery Indicator</string>
+
+    <!-- Start Button -->
+    <string name="button_start">Start</string>
+    <color name="button_start_text">#ff009700</color>
+    <color name="button_start_background">#00ff00</color>
+
+    <!-- Stop Button -->
+    <string name="button_stop">Stop</string>
+    <color name="button_stop_text">#ffb80000</color>
+    <color name="button_stop_background">#ff0000</color>
+
+    <!-- Action Bar -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Notification -->
+    <string name="battery_left">Battery Left</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Settings Activity -->
+    <string name="settings_period">Update Interval (sec)</string>
+    <string name="settings_batterySaving">Battery Saving</string>
+        <string name="settings_batterySaving_On">On</string>
+        <string name="settings_batterySaving_Off">Off</string>
+        <string name="settings_batterySaving_description">Does the indicator update when the screen off</string>
+</resources>
