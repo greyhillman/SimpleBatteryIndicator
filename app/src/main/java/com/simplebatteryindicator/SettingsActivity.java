@@ -12,7 +12,8 @@ import android.widget.EditText;
 import java.text.ParseException;
 
 /**
- *
+ *  This is the activity that is created when the user selects the "Settings" button from the
+ *  options menu in MainActivity/
  */
 public class SettingsActivity extends Activity {
 
