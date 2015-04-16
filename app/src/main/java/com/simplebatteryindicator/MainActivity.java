@@ -118,7 +118,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        // Set the view as defined
+        // Set the view as defined in the layout
         setContentView(R.layout.activity_main);
 
         // Create the receiver to tell us if the screen has turned off or on

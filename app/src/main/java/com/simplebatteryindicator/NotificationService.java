@@ -17,13 +17,9 @@ public class NotificationService extends Service {
     public static final String NOTIFICATION_UPDATE        = "com.simpleBatteryIndicator.UPDATE";
     public static final String NOTIFICATION_UPDATE_START  = "com.simpleBatteryIndicator.START";
     public static final String NOTIFICATION_UPDATE_STOP   = "com.simpleBatteryIndicator.STOP";
-    public static final String NOTIFICATION_UPDATE_PERIOD = "com.simpleBatteryIndicator.PERIOD";
-    public static final String NOTIFICATION_UPDATE_SAVING = "com.simpleBatteryIndicator.SAVING";
     public static final String NOTIFICATION_DELETE        = "com.simpleBatteryIndicator.DELETE";
 
-    private AlarmManager        alarmManager; // system manager for timing updates
     private PendingIntent       alarmIntent;
-    private NotificationManager notificationManager; // system manager for notifications
 
     public NotificationService () {
         super();
@@ -90,8 +86,8 @@ public class NotificationService extends Service {
         // What action is the service going to do when the service is called.
         String action = intent.getAction().toString();
 
-        notificationManager = ( NotificationManager ) getSystemService( NOTIFICATION_SERVICE );
-        alarmManager        = ( AlarmManager )        getSystemService( ALARM_SERVICE );
+        NotificationManager notificationManager = ( NotificationManager ) getSystemService( NOTIFICATION_SERVICE );
+        AlarmManager        alarmManager        = ( AlarmManager )        getSystemService( ALARM_SERVICE );
 
         switch ( action ) {
             case NOTIFICATION_UPDATE_START:
